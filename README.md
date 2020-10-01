@@ -12,4 +12,4 @@ Opperations in order that they occured in the video
 2. 4 - 1 
 3. 3 * 3
 4. 9 / 2
-5. 2.1 +2 .4
+5. 2.1 + 2.4
