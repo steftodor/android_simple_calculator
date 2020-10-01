@@ -54,6 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
+                android:onClick="btnAddClick"
                 android:text="+" />
 
         </LinearLayout>
@@ -94,6 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
+                android:onClick="btnMinusClick"
                 android:text="-" />
 
         </LinearLayout>
@@ -134,6 +136,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="btnDivideClick"
                 android:text="/" />
         </LinearLayout>
 
@@ -148,6 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="btnClearClick"
                 android:text="C" />
 
             <Button
@@ -163,6 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="btnDotClick"
                 android:text="." />
 
             <Button
@@ -170,6 +175,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="btnMultiplyClick"
                 android:text="*" />
         </LinearLayout>
 
@@ -177,6 +183,7 @@
             android:id="@+id/btnResult"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:onClick="btnResultClick"
             android:text="=" />
 
     </LinearLayout>
