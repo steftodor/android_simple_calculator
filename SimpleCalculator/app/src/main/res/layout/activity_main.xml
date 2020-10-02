@@ -14,7 +14,8 @@
         <EditText
             android:id="@+id/resultEdit"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName" />
 
@@ -183,7 +184,8 @@
         <Button
             android:id="@+id/btnResult"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:onClick="btnResultClick"
             android:text="=" />
 
